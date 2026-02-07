@@ -1,3 +1,3 @@
 document.getElementById("button").onclick = function () {
-    location.href = "sparkhacks.html";
+    location.href = "mapview.html";
 };
