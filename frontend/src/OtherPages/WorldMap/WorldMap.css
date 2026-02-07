@@ -1,0 +1,24 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+#map-container svg {
+    width: 80%;
+    max-width: 900 px;
+    cursor: pointer;
+}
+
+svg path:hover {
+    fill: red;
+}
+
+#movie-box {
+    color: black;
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
