@@ -10,18 +10,21 @@ html, body {
 
 #map-container {
     width: 100%;
+    flex-grow: 1;
     height: 100%;
-    overflow: auto;
+    overflow: hidden;
     background-color: cornflowerblue;
     display: flex;
     justify-content: center;
-    align-items: auto;
+    align-items: center;
 }
 
 #map-container svg {
     width: 100%;
+    max-width: 1400px;
     height: auto;
     cursor: pointer;
+    display: block;
 }
 
 svg path:hover {
