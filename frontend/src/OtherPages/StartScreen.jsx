@@ -58,7 +58,7 @@ export default function StartScreen({ onStart }) {
           fontSize: "1.2rem",
           borderRadius: "8px",
           border: "none",
-          backgroundColor: "#1e90ff", // nice blue
+          backgroundColor: "#1e90ff",
           color: "#fff",
           cursor: "pointer",
           boxShadow: "0 5px 15px rgba(0,0,0,0.3)",
