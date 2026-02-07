@@ -7,7 +7,7 @@ body{
 
 #map-container svg {
     width: 80%;
-    max-width: 900 px;
+    max-width: 1000 px;
     cursor: pointer;
 }
 
@@ -16,5 +16,5 @@ svg path:hover {
 }
 
 h1{
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
