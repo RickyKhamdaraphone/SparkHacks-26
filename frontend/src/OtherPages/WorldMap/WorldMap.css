@@ -1,13 +1,23 @@
-body{
+body {
     font-family: Arial, sans-serif;
     text-align: center;
     background: black;
     color: white;
 }
 
+#map-container {
+    width: 120%;
+    height: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #map-container svg {
-    width: 80%;
-    max-width: 900 px;
+    width: 120%;
+    height: 120;
+    max-width: 120%;
+    max-height: 120%;
     cursor: pointer;
 }
 
